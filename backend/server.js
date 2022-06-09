@@ -5,6 +5,7 @@ const app = express();
 import dotenv from "dotenv";
 dotenv.config();
 
+
 connectDB();
 import SendRoute from "./routers/SendRoute.js";
 import AuthRoute from "./routers/AuthRoute.js";
